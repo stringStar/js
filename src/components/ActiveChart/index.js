@@ -42,7 +42,7 @@ export default class ActiveChart extends Component {
 
     return (
       <div className={styles.activeChart}>
-        <NumberInfo subTitle="目标评估" total="有望达到预期" />
+        <NumberInfo subTitle="目标评估" total="有望达到预期速度的"/>
         <div style={{ marginTop: 32 }}>
           <MiniArea
             animate={false}

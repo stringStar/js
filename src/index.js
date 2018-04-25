@@ -8,11 +8,15 @@ import createHistory from 'history/createHashHistory';
 import createLoading from 'dva-loading';
 import 'moment/locale/zh-cn';
 import './rollbar';
-
 import './index.less';
+import 'antd/dist/antd.css';
 // 1. Initialize
 const app = dva({
   history: createHistory(),
+  onAction: () => next => action => {
+    console.log(next, action,111111);
+    if(action) return next(action);
+  }
 });
 
 // 2. Plugins

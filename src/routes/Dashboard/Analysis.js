@@ -134,7 +134,7 @@ export default class Analysis extends Component {
 
     const menu = (
       <Menu>
-        <Menu.Item>操作一</Menu.Item>
+        <Menu.Item>操作一less</Menu.Item>
         <Menu.Item>操作二</Menu.Item>
       </Menu>
     );
@@ -184,7 +184,7 @@ export default class Analysis extends Component {
         render: text => <a href="/">{text}</a>,
       },
       {
-        title: '用户数',
+        title: '用户数123',
         dataIndex: 'count',
         key: 'count',
         sorter: (a, b) => a.count - b.count,

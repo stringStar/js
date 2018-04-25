@@ -34,6 +34,7 @@ const Item = ({ src, size, tips, onClick = () => {} }) => {
       ) : (
         <Avatar src={src} size={size} />
       )}
+    less编译慢
     </li>
   );
 };
